@@ -1,0 +1,35 @@
+*{ 
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    height: 100%;
+    background: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+h1{
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+}
+h2{
+    position: absolute;
+    color: aliceblue;
+    bottom: 2rem;
+    left: 10rem;
+    background: rebeccapurple;
+    padding: 5px;
+}
+.video{
+    box-shadow: rgba(255, 255, 255, 0.6) 0px 10px 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 10rem;
+}
+
+canvas{
+    position: absolute;
+    left: 10rem;
+}
